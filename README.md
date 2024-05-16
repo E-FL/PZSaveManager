@@ -1,4 +1,4 @@
-Usage: java PZSaver <backup|restore> <baseSavePath> [<backupPath>] [-v|--verbose] [-np|--noprompt] [-n|--new] [-t|--test [deep|shallow]] [-s|--skip]
+Usage: java PZSaver <backup|restore> \<baseSavePath\> [\<backupPath\>] [-v|--verbose] [-np|--noprompt] [-n|--new] [-t|--test [deep|shallow]] [-s|--skip]
 
 Commands:
 
