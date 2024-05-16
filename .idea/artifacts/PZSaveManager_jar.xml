@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PZSaveManager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PZSaveManager_jar</output-path>
+    <root id="archive" name="PZSaveManager.jar">
+      <element id="module-output" name="PZSaveManager" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.17.0/commons-codec-1.17.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
