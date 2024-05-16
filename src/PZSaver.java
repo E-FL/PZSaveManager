@@ -163,7 +163,7 @@ public class PZSaver {
             if (backupFile.isDirectory()) {
                 destFile.mkdirs();
             } else {
-                if (!destFile.exists() || FileUtils.isFileNewer(backupFile, destFile)) {
+                if (!destFile.exists() || FileUtils.isFileOlder(backupFile, destFile)) {
                     FileUtils.copyFile(backupFile, destFile);
                     filesRestored++;
                 } else {
@@ -228,6 +228,7 @@ public class PZSaver {
 
     private static void printHelp() {
         System.out.println("Usage: java PZSaver <backup|restore> <baseSavePath> [<backupPath>] [-v|--verbose] [-np|--noprompt] [-n|--new] [-t|--test [deep|shallow]] [-s|--skip]");
+        System.out.println("\nVersion 0.2 - Use at your own risk. I am not liable for any problem that will arise.");
         System.out.println("\nCommands:");
         System.out.println("  backup     Create a differential backup from the base save directory to the backup directory.");
         System.out.println("  restore    Restore the base save directory from the backup directory, making it identical to the backup.");
