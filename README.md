@@ -19,8 +19,8 @@ Flags:
 
 Examples:
   java PZSaver backup C:\Users\****\Zomboid\Saves\[Builder]\Dan
-  java PZSaver backup C:\Users\****\Zomboid\Saves\]Builder]\Dan -v
-  java PZSaver restore C:\Users\****\Zomboid\Saves\[Builder]\Dan [C:\Users\****\Zomboid\Saves\Builder\Dan-1] -np
+  java PZSaver backup C:\Users\****\Zomboid\Saves\[Builder]\Dan -v
+  java PZSaver restore C:\Users\****\Zomboid\Saves\[Builder]\Dan [C:\Users\****\Zomboid\Saves\[Builder]\Dan-1] -np
   java PZSaver backup C:\Users\****\Zomboid\Saves\[Builder]\Dan -n
 
 Backup Options:
