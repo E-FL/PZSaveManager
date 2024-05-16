@@ -18,10 +18,10 @@ Flags:
   -h, --help       Display this help message and exit.
 
 Examples:
-  java PZSaver backup C:\path\to\Dan
-  java PZSaver backup C:\path\to\Dan -v
-  java PZSaver restore C:\path\to\Dan [C:\path\to\Dan-1] -np
-  java PZSaver backup C:\path\to\Dan -n
+  java PZSaver backup C:\Users\****\Zomboid\Saves\[Builder]\Dan
+  java PZSaver backup C:\Users\****\Zomboid\Saves\]Builder]\Dan -v
+  java PZSaver restore C:\Users\****\Zomboid\Saves\[Builder]\Dan [C:\Users\****\Zomboid\Saves\Builder\Dan-1] -np
+  java PZSaver backup C:\Users\****\Zomboid\Saves\[Builder]\Dan -n
 
 Backup Options:
   If <backupPath> is omitted, the last existing backup directory will be used as the target directory.
